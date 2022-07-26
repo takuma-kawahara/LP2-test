@@ -42,6 +42,7 @@ header {
 .header_logo {
   width: 15%;
   height: 100%;
+  padding-right: 5%;
 }
 
 .header_logo img {
@@ -211,8 +212,9 @@ main .top {
 }
 
 .intro_items_left_ttl {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 10%;
+  line-height: 2rem;
 }
 
 .intro_items_left_ttl>span {
@@ -229,7 +231,7 @@ main .top {
   width: 100%;
   height:100%;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 48%;
 }
 
@@ -268,7 +270,7 @@ main .top {
   width: 80%;
   background-color: white;
   border: 1px solid #000;
-  border-radius: 30%;
+  border-radius: 10px;
   padding:5%;
   margin: 0 auto;
   margin-bottom: 5%;
@@ -390,6 +392,7 @@ main .top {
 p.block_txt {
   font-weight: bold;
   border: none;
+  text-align: center;
 }
 
 .feature_under_number {
@@ -404,7 +407,7 @@ p.block_txt {
   background-color: rgb(77, 178, 164);
   position: relative;
   z-index: 10;
-  top: 3rem;
+  top: 5rem;
   left: 5%;
   color: #fff;
   line-height: 2rem;
@@ -418,7 +421,7 @@ p.block_txt {
   width: 95%;
   height:100%;
   border: 1px solid #000;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 .feature_under_inner {
@@ -476,6 +479,7 @@ p.block_txt {
   color: rgb(77,178,164);
   background: linear-gradient(transparent 50%, rgba(250, 255, 3, 50%) 50%);
   font-size: 1.5rem;
+  line-height: 3rem;;
 }
 
 .feature_under_right p {
@@ -508,7 +512,7 @@ p.block_txt {
 }
 
 .system_block {
-  width: 30%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -517,7 +521,7 @@ p.block_txt {
 }
 
 .system_img {
-  width:70%;
+  width:80%;
   height:auto;
 }
 
@@ -527,7 +531,7 @@ p.block_txt {
 }
 
 .system_content {
-  width: 70%;
+  width: 80%;
   background-color: rgb(217,217,217);
 }
 
@@ -538,6 +542,7 @@ p.block_txt {
 
 .system_content p {
   line-height: 1.5rem;
+  padding:0 10%;
 }
 
 .voice_wrapper {
@@ -606,7 +611,7 @@ p.txt {
   border: 1px solid #000;
   padding: 3%;
   background-color: #fff;
-  border-radius: 30%;
+  border-radius: 10px;
 }
 
 .invitation_under_inner_top {
@@ -720,7 +725,7 @@ color: rgb(33, 44, 146)
 }
 
 .footer_left_under_left {
-  width: 20%;
+  width: 15%;
   padding: 1%;
 }
 
@@ -729,7 +734,7 @@ color: rgb(33, 44, 146)
 }
 
 .footer_left_under_right {
-  width: 20%;
+  width: 15%;
   padding: 1%;
 }
 
@@ -786,7 +791,7 @@ color: rgb(33, 44, 146)
   visibility: visible;
   width: 24px;
   position: absolute;
-  top: 15px;
+  top: 40px;
   right: 15px;
   border-top: solid 4px #aaaaaa;
   cursor: pointer;
@@ -939,6 +944,14 @@ color: rgb(33, 44, 146)
   .footer_right_right_wrapper{
     line-height: 1rem;
   }
+
+  .feature_under_number {
+    top:4rem;
+  }
+  
+  .intro_items_right_img {
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -1017,7 +1030,7 @@ color: rgb(33, 44, 146)
   }
 
   .under_intro_table {
-    width:90%;
+    width:70%;
   }
 
   .table_inner {
@@ -1072,7 +1085,7 @@ color: rgb(33, 44, 146)
   }
     
   .feature_inner_contents {
-    width:95%;
+    width:85%;
   }
 
   .feature_number {
@@ -1119,7 +1132,7 @@ color: rgb(33, 44, 146)
   }
 
   .feature_under_right_txt_inner {
-    padding:6%;
+    padding:3%;
     font-size: 0.6rem;
   }
 
@@ -1138,7 +1151,7 @@ color: rgb(33, 44, 146)
   }
   
   .system_block {
-    width: 100%;
+    width: 90%;
   }
 
   .voice_content_inner {
@@ -1146,11 +1159,11 @@ color: rgb(33, 44, 146)
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
   }
 
   .voice_content_block {
-    width: 95%;
+    width: 90%;
     margin: 2%;
   }
 
@@ -1200,20 +1213,27 @@ color: rgb(33, 44, 146)
     margin: 0;
   }
 
-  @media screen and (max-width: 375px){
-    header {
-      width: 95%;
-    }
+  .feature_under_wrapper {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+  header {
+    width: 95%;
   }
 }
 
-  @media screen and (max-width: 320px){
-    header {
-      width:87%;
-      height:3%;
-    }
-    
-    header .drawer{
-      top:8px;
-    }
+
+@media screen and (max-width: 320px){
+  header {
+    width:87%;
+    height:3%;
   }
+  
+  header .drawer{
+    top:8px;
+  }
+
+}
