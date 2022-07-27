@@ -156,6 +156,7 @@ main .top {
 /*　↓Aboutの箇所　*/
 .about {
   background-color: rgb(217,217,217);
+  padding: 10% 0;
 }
 
 /* 各セクションの見出し文字開始位置 */
@@ -163,7 +164,7 @@ main .top {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  padding: 5%;
+  padding-bottom: 6%;
 }
 
 .section_ttl_inner {
@@ -329,7 +330,7 @@ main .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5% auto;
+  margin: 0% auto;
 }
 
 .feature_inner_contents {
@@ -393,6 +394,10 @@ p.block_txt {
   font-weight: bold;
   border: none;
   text-align: center;
+}
+
+.feature {
+  padding: 10% 0;
 }
 
 .feature_under_number {
@@ -493,12 +498,12 @@ p.block_txt {
 
 .system {
   background-color: rgb(245, 245, 245);
+  padding: 10% 0;
 }
 
 .system_wrapper {
   width: 100%;
   box-sizing: border-box;
-  padding: 2%;
 }
 
 .system_inner {
@@ -545,6 +550,10 @@ p.block_txt {
   padding:0 10%;
 }
 
+.voice {
+  padding: 8% 0;
+}
+
 .voice_wrapper {
   width: 100%;
 }
@@ -552,8 +561,7 @@ p.block_txt {
 .voice_content_inner {
   width:90%;
   border: 1px solid #000;
-  margin: 5% auto;
-  padding: 2%;
+  margin: 0% auto;
   display: flex;
   justify-content: space-around;
 }
@@ -593,12 +601,12 @@ p.txt {
 
 .invitation {
   background-color: #e5c046;
+  padding: 8% 0;
 }
 
 .invitation_under_wrapper {
   width: 100%;
   box-sizing: border-box;
-  padding: 2%;
 }
 
 .invitation_under_inner {
