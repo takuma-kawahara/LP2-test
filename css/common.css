@@ -1232,6 +1232,10 @@ color: rgb(33, 44, 146)
     width: 100%;
   }
 
+  header .drawer {
+    top: 25px;
+  }
+
   .intro_items_left {
     width: 90%;
     height:100%;
